@@ -11,48 +11,40 @@
   </tr>
 
   <tr>
-    <td colspan="2"> <ahref="#">Home</ahref>  <ahref="#">Forms</ahref></td>
+    <td colspan="2"> <a href="A04Home.html">Home</a>  <a href="A04Forms.html">Forms</a></td>
   </tr>
 
   <tr>
     <td valign="top" align="center" width="25%">
       <h4> Forms Summary </h4>
-      <p>
-        HTML supports several different types of input.
-      </p>
+      <p>HTML supports several different types of input.</p>
     </td>
 
     <td valign="top" width="75%">
       <h3>Forms Page</h3>
       <p>The following is a text input:</p>
-      <form>
+      <form action="A04Forms.html">
         Username:
         <input type="text" name="username">
-      </form>
-      <p>Then a password input:</p>
-      <form>
+        <p>Then a password input:</p>
         Password:
         <input type="password" name="psw">
+
+        <p>Radio Buttons:</p>
+        <input type="radio" name="gender" value="male"> Male
+        <br>
+        <input type="radio" name="gender" value="female"> Female
+
+        <p>Checkboxes:</p>
+        <input type="checkbox" name="os" value="Windows">Windows
+        <br>
+        <input type="checkbox" name="os" value="OS X"> OS X
+        <br>
+        <input type="checkbox" names="os" value="Linux"> Linux
+        <br>
+        <p>Submit button to send form data</p>
+        <input type="submit" value="Submit">
       </form>
-
-      <p>Radio Buttons:</p>
-      <form>
-      <input type="radio" name="gender" value="male"> Male
-      <br>
-      <input type="radio" name="gender" value="female"> Female
-      </form>
-
-      <p>Checkboxes:</p>
-      <form>
-      <input type="checkbox" name="os" value="Windows">Windows
-      <br>
-      <input type="checkbox" name="os" value="OS X"> OS X
-      <br>
-      <input type="checkbox" names="os" value="Linux"> Linux
-      </form>
-
-
-      <input type="button" onclick
     </td>
   </tr>
 
