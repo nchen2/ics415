@@ -6,53 +6,57 @@
 </head>
 <body>
 <table width="100%" border="1">
-  <tr>
-    <td colspan="2"><h1 align="center">Cam's Cool Website</h1></td>
-  </tr>
+  <thead>
+    <tr>
+      <td colspan="2"><h1 align="center">Cam's Cool Website</h1></td>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td align="center" colspan="2">Copyright (C) Cam Moore</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td colspan="2"> <a href="A04Home.html">Home</a>  <a href="A04Forms.html">Forms</a></td>
+    </tr>
 
-  <tr>
-    <td colspan="2"> <a href="A04Home.html">Home</a>  <a href="A04Forms.html">Forms</a></td>
-  </tr>
+    <tr>
+      <td valign="top" align="center">
+        <h4> Forms Summary </h4>
+        <p>HTML supports several different types of
+        <br>input.</p>
+      </td>
 
-  <tr>
-    <td valign="top" align="center">
-      <h4> Forms Summary </h4>
-      <p>HTML supports several different types of
-      <br>input.</p>
-    </td>
+      <td valign="top" width="75%">
+        <h3>Forms Page</h3>
+        <p>The following is a text input:</p>
+        <form name="input" action="A04Forms.html" method="get">
+          Username:
+          <input type="text" name="username">
+          <p>Then a password input:</p>
+          Password:
+          <input type="password" name="psw">
 
-    <td valign="top" width="75%">
-      <h3>Forms Page</h3>
-      <p>The following is a text input:</p>
-      <form action="A04Forms.html" method="get">
-        Username:
-        <input type="text" name="username">
-        <p>Then a password input:</p>
-        Password:
-        <input type="password" name="psw">
+          <p>Radio Buttons:</p>
+          <input type="radio" name="gender" value="male"> Male
+          <br>
+          <input type="radio" name="gender" value="female"> Female
 
-        <p>Radio Buttons:</p>
-        <input type="radio" name="gender" value="male"> Male
-        <br>
-        <input type="radio" name="gender" value="female"> Female
+          <p>Checkboxes</p>
+          <input type="checkbox" name="os" value="Windows">Windows
+          <br>
+          <input type="checkbox" name="os" value="OS X"> OS X
+          <br>
+          <input type="checkbox" name="os" value="Linux"> Linux
+          <br>
+          <p>Submit button to send form data</p>
+          <input type="submit" value="Submit">
+        </form>
+      </td>
+    </tr>
+  </tbody>
 
-        <p>Checkboxes</p>
-        <input type="checkbox" name="os" value="Windows">Windows
-        <br>
-        <input type="checkbox" name="os" value="OS X"> OS X
-        <br>
-        <input type="checkbox" name="os" value="Linux"> Linux
-        <br>
-        <p>Submit button to send form data</p>
-        <input type="submit" value="Submit">
-      </form>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" colspan="2">Copyright (C) Cam Moore</td>
-  </tr>
 </table>
-
 </body>
 </html>

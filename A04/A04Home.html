@@ -6,59 +6,75 @@
 </head>
 <body>
 <table width="100%" border="1">
-  <tr>
-    <td colspan="2"><h1 align="center">Cam's Cool Website</h1></td>
-  </tr>
+  <thead>
+    <tr>
+      <td colspan="2"><h1 align="center">Cam's Cool Website</h1></td>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td align="center" colspan="2">Copyright (C) Cam Moore</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <a href="A04Home.html">Home</a>
+        <a href="A04Forms.html">Forms</a>
+      </td>
+    </tr>
 
-  <tr>
-    <td colspan="2">
-      <a href="A04Home.html">Home</a>
-      <a href="A04Forms.html">Forms</a>
-    </td>
-  </tr>
+    <tr>
+      <td valign="top" align="center">
+        <h4> Summary Window </h4>
+        <p>HTML suports tables.</p>
+        <p>HTML supports three different types of lists;
+        <br> unordered, ordered, and description.</p>
+      </td>
 
-  <tr>
-    <td valign="top" align="center">
-      <h4> Summary Window </h4>
-      <p>HTML suports tables.</p>
-      <p>HTML supports three different types of lists;
-        <br>
-        unordered, ordered, and description.</p>
-    </td>
-
-    <td valign="top" width="75%">
-      <h3>Home Page</h3>
-      <p>Tables:</p>
+      <td valign="top" width="75%">
+        <h3>Home Page</h3>
+        <p>Tables:</p>
 
       <table border="0">
         <caption> Borderless Table</caption>
-        <tr>
-          <th>Header 1</th>
-        </tr>
-        <tr>
-          <td>Row 1, Col 1</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1, Col 1</td>
+          </tr>
+        </tbody>
       </table>
 
       <br>
       <table border="1">
         <caption>Bordered Table</caption>
-        <tr>
-          <th>Header 1</th>
-          <th>Header 2</th>
-        </tr>
-        <tr>
-          <td>Row 1, Col 1</td>
-          <td>Row 1, Col 2</td>
-        </tr>
-        <tr>
-          <td>Row 2, Col 1</td>
-          <td>Row 2, Col 2</td>
-        </tr>
-        <tr>
-          <td>Footer 1</td>
-          <td>Footer 2</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+          </tr>
+          <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+          </tr>
+        </tbody>
       </table>
 
       <p>Lists:</p>
@@ -83,13 +99,10 @@
         header, narrow navigation bar.
       </p>
       <p>The main section of the website takes up 75% of the page. The left sidebar is center aligned.</p>
-    </td>
-  </tr>
+      </td>
+    </tr>
+  </tbody>
 
-  <tr>
-    <td align="center" colspan="2">Copyright (C) Cam Moore</td>
-  </tr>
 </table>
-
 </body>
 </html>
