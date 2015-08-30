@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f3dadd3-4e57-442a-9020-85d5b1981af7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A04/A04Forms.html" afterPath="$PROJECT_DIR$/A04/A04Forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A04/A04Home.html" afterPath="$PROJECT_DIR$/A04/A04Home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ics415.iws" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="A04Home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A04/A04Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.125">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding />
             </state>
@@ -50,8 +49,8 @@
       <file leaf-file-name="A04Forms.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A04/A04Forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34802786">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.47795823">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -172,8 +171,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -404,11 +403,12 @@
       <workItem from="1440837876709" duration="5542000" />
       <workItem from="1440887426267" duration="1563000" />
       <workItem from="1440897600810" duration="1002000" />
+      <workItem from="1440899092031" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11587000" />
+    <option name="totallyTimeSpent" value="11668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1251" height="552" extended-state="0" />
@@ -445,6 +445,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IC/w1c2/Hello World.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="11" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A04/A04Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A04/A04Forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IC/w1c2/Hello World.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -511,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A04/A04Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
@@ -519,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A04/A04Forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34802786">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.47795823">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
