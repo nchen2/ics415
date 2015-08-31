@@ -5,54 +5,73 @@
   <title>My Website</title>
 </head>
 <body>
-  <header><h1 align="left">My Website</h1></header>
+  <table width="100%" border="1">
+  <header>
+    <tr>
+      <th colspan="2"><h1 align="center">Welcome to My Website</h1></>
+      </th>
+    </tr>
+    </header>
 
-  <table>
     <tbody>
-      <tr>
-        <td valign="top" width="40%">
-          <h2>Animals List</h2>
-          <ul>
-            <li>Dog</li>
-            <li>Cat</li>
-            <li>Fish</li>
-            <li>Bird</li>
-          </ul>
+      <aside>
+        <tr>
+          <td valign="top" width="20%">
+            <h2>Animals List</h2>
+            <ul>
+              <li>Dog</li>
+              <li>Cat</li>
+              <li>Fish</li>
+              <li>Bird</li>
+            </ul>
+          </td>
+        </aside>
+
+        <td valign="top" width="80%">
+          <h2 align="center">Current Count</h2>
+            <table width="50%" align="center" border="1">
+              <thead>
+                <th>Animal</th>
+                <th>Number of Animals</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dog</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Cat</td>
+                  <td>4</td>
+                </tr>
+                  <td>Fish</td>
+                  <td>10</td>
+                </tr>
+                </tr>
+                  <td>Bird</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+
+          <form name="form" action="w2c1.html" method="get">
+            <p>Please enter an animal</p>
+            <input type="text" name="animal">
+            <p>Please enter the number of animals:</p>
+            <input type="number" name="amount" min="0" value="0">
+            <input type="submit" value="Submit">
+          </form>
+
         </td>
 
-        <td valign="top" width="60%">
-          <h2 align="center">Current Count</h2>
-            <table width="80%" align="center" border="1">
-              <tr>
-                <td>Dog</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Cat</td>
-                <td>4</td>
-              </tr>
-                <td>Fish</td>
-                <td>10</td>
-              </tr>
-              </tr>
-                <td>Bird</td>
-                <td>2</td>
-              </tr>
-            </table>
-        </td>
       </tr>
     </tbody>
+    <footer>
+      <tr>
+        <td align="center" colspan="2">Copyright (C) Noelle Chen</td>
+      </tr>
+    </footer>
   </table>
 
-<form name="form" action="w2c1.html" method="get">
-  <p>Please enter an animal</p>
-  <input type="text" name="animal">
-  <p>Please enter the number of animals:</p>
-  <input type="number" name="amount" min="0" value="0">
-</form>
-<br>
-
-<footer>Edited by Noelle Chen August 31, 2015</footer>
 
 </body>
 </html>
