@@ -1,0 +1,37 @@
+header {
+  text-align: center;
+  border-style: double;
+  border-width: 3px;
+  background-color: azure;
+}
+
+#link {
+  border-style: double;
+  border-width: 3px;
+  background-color: paleturquoise;
+}
+
+footer {
+  text-align: center;
+  border-style: double;
+  border-width: 3px;
+  clear: both;
+  background-color: azure;
+}
+
+#main {
+  border-style:double;
+  border-width: 3px;
+  float: right;
+  width: 68%;
+  background-color: aliceblue;
+}
+
+#side {
+  border-style: double;
+  border-width: 3px;
+  float: left;
+  width: 30%;
+  padding-bottom: 115px;
+  background-color: aliceblue;
+}
