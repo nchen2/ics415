@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms Page</title>
+  <link href="layout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header"><h1>Forms Page</h1></div>
+
+<div id="navbar">
+  <a href="A05home.html">Home</a>
+  <a href="A05form.html">Forms</a>
+  <a href="A05about.html">About</a>
+</div>
+
+<div id="side">
+  <h4> Form Summary </h4>
+  <p>Please fill out the form with the following information.</p>
+</div>
+
+<div id="body">
+  <h3>Information Form</h3>
+  <form name="input" action="A05forms.html" method="get">
+    Enter your name:
+    <input type="text" name="name">
+    <br>
+    Enter the current month:
+    <input type="month" name="month">
+    <br>
+    Enter today's date:
+    <input type="date" name="today">
+    <br>
+    Enter your birthday(including date and time):
+    <input type="datetime" name="birthdatetime">
+    <br>
+    Enter your email:
+    <input type="email" name="email">
+    <br>
+    Enter your favorite color:
+    <input type="color" name="color">
+    <br>
+    Enter your favorite number:
+    <input type="number" name="favnum">
+    <br>
+    Enter your website:
+    <input type="url" name="website">
+    <br>
+    Search the site:
+    <input type="search" name="search">
+    <br>
+    Use the sliding bar to rate the website (left being bad and right being good):
+    <input type="range" name="rating" min="1" max="10">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="footer">Copyright (C) Noelle Chen</div>
+
+</body>
+</html>
