@@ -1,16 +1,10 @@
-.row2 .col-sm-4{
-  background-color: skyblue;
-}
 
-.row2 .col-sm-8{
-  background-color: aliceblue;
-}
 
 .footer .col-sm-12{
   background-color: turquoise;
   text-align: center;
 }
- .row1 .col-sm-12 {
+ #navbar .col-sm-12 {
    background-color: lightsteelblue;
  }
 
