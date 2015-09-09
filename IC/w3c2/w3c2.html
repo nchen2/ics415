@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="layout.css" rel="stylesheet" type="text/css">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap 101 Template</title>
+  <title>W3C2</title>
 
   <!-- Bootstrap -->
   <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,10 +22,10 @@
 <div class="container">
   <div class="header">
     <col-sm-12>
-      <h1>Header</h1>
+      <h1>Welcome to My Website</h1>
     </col-sm-12>
   </div>
-  <div class="row1">
+  <div class="row1 ">
     <div class="col-sm-12">
       <ul class="nav nav-pills">
         <li role="presentation" class="active"><a href="w3c2.html">Home</a></li>
@@ -38,28 +38,69 @@
     <div class="col-sm-4">
         <p>Summary</p>
         <ul>
-          <li>Tab 1</li>
-          <li>Tab 2</li>
-          <li>Tab 3</li>
+          <li>Buttons: contains a selection of buttons</li>
+          <li>Forms: two input forms, the first should be vertical, the second horizontal. </li>
+          <li>Images:  a set of thumbnails and responsive images</li>
         </ul>
     </div>
     <div class="col-sm-8">
       <p>Main</p>
       <div class="tab-content">
         <ul class="nav nav-tabs" role="tablist">
-          <li><a href="#tab1" role="tab" data-toggle="tab">Tab 1</a></li>
-          <li><a href="#tab2" role="tab" data-toggle="tab">Tab 2</a></li>
-          <li><a href="#tab3" role="tab" data-toggle="tab">Tab 3</a></li>
+          <li><a href="#button" role="tab" data-toggle="tab">Buttons</a></li>
+          <li><a href="#tab2" role="tab" data-toggle="tab">Forms</a></li>
+          <li><a href="#tab3" role="tab" data-toggle="tab">Images</a></li>
         </ul>
-        <div class="tab-pane" id="tab1">Tab1</div>
-        <div class="tab-pane" id="tab2">Tab2</div>
-        <div class="tab-pane" id="tab3">Tab3</div>
+        <div class="tab-pane" id="button">
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <form role="form">
+            <div class="form-group">
+              <label for="name">Enter Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" placeholder="email">
+            </div>
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </form>
+
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="name2">Enter Name:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="name2" placeholder="name">
+              </div>
+              <br>
+              <label class="control-label col-sm-3" for="email2">Enter Email:</label>
+              <div class="col-sm-9">
+                <input type="email" class="form-control" id="email2" placeholder="email">
+              </div>
+              <div class="col-sm-offset-4 col-sm-8">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab3">
+          <div class="col-sm-12">
+            <img src="fall.jpg" class="img-thumbnail" alt="Fall" width="500" height="400">
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="footer">
     <div class="col-sm-12">
-      <p>Footer</p>
+      <p>Noelle Chen</p>
     </div>
   </div>
 </div>
