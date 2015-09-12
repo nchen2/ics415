@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Home Page</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link href="layout.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="page-header">
+      <h1>Welcome to My Website</h1>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbardata">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="A06index.html">Home</a></li>
+          <li><a href="A06page1.html">Page 1</a></li>
+          <li><a href="A06page2.html">Page 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div id="body" class="container">
+  <div class="row row-eq-height">
+    <div id="sidebar" class="col-sm-3">
+      <p>Summary</p>
+      <ul>
+        <li>Examples of different form types</li>
+      </ul>
+    </div>
+    <div id="main" class="col-sm-9">
+      <h3>Information Form</h3>
+      <form name="input" action="A06page1.html" method="get">
+        Enter your name:
+        <input type="text" name="name">
+        <br>
+        Enter the current month:
+        <input type="month" name="month">
+        <br>
+        Enter today's date:
+        <input type="date" name="today">
+        <br>
+        Enter your birthday(including date and time):
+        <input type="datetime" name="birthdatetime">
+        <br>
+        Enter your email:
+        <input type="email" name="email">
+        <br>
+        Enter your favorite color:
+        <input type="color" name="color">
+        <br>
+        Enter your favorite number:
+        <input type="number" name="favnum">
+        <br>
+        Enter your website:
+        <input type="url" name="website">
+        <br>
+        Search the site:
+        <input type="search" name="search">
+        <br>
+        Use the sliding bar to rate the website (left being bad and right being good):
+        <input type="range" name="rating" min="1" max="10">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
+  </div>
+
+<footer>
+  <div id="footcontain" class="container">
+    <div class="row">
+      <div id ="foot" class="col-sm-12">
+        <p>Noelle Chen</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

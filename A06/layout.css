@@ -1,23 +1,39 @@
 html, body {
-  background-image:url(background.jpg);
+  background-image: url(background.jpg);
   background-repeat: repeat;
   font-family: 'Merriweather', serif;
 }
 
 footer {
   text-align: center;
-  line-height: 50px;
+  margin-top: 10px;
+  line-height: 40px;
 }
+
 .navbar {
+  background-color: lightskyblue;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-color: black;
+
+}
+
+.page-header {
+  text-align: center;
+}
+
+
+#footcontain{
+  border-color: black;
+  border: 1px solid;
+  border-radius: 5px;
   background-color: lightskyblue;
 }
 
-#foot {
-  background-color: lightskyblue;
-}
 #sidebar {
   background-color: lightgray;
 }
+
 
 #body {
   background-color: lightgray;

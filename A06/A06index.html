@@ -31,16 +31,26 @@
   </header>
 
   <div class="container">
-    <div class="navbar navbar-default">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="A06index.html">Home</a></li>
-          <li><a href="A06index.html">Page 1</a></li>
-          <li><a href="A06index.html">Page 2</a></li>
-        </ul>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbardata">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="A06index.html">Home</a></li>
+            <li><a href="A06page1.html">Page 1</a></li>
+            <li><a href="A06page2.html">Page 2</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   </div>
+
 
   <div id="body" class="container">
     <div class="row row-eq-height">
@@ -169,21 +179,24 @@
               <div class="row">
                 <div class="col-sm-3">
                   <a href="beach.jpg" class="thumbnail img-responsive">
-                    <img src="beach.jpg" alt="Beach" style="width:100px;height:120px">
+                    <img src="beach.jpg" alt="Beach" style="width:150px;height:120px">
                   </a>
                 </div>
                 <div class="col-sm-3">
                   <a href="mountain.jpg" class="thumbnail img-responsive">
-                    <img src="mountain.jpg" alt="Mountains" style="width:100px;height:120px">
+                    <img src="mountain.jpg" alt="Mountains" style="width:150px;height:120px">
                   </a>
                 </div>
                 <div class="col-sm-3">
                   <a href="waterfall.jpg" class="thumbnail img-responsive">
-                    <img src="waterfall.jpg" alt="Waterfall" style="width:100px;height:120px">
+                    <img src="waterfall.jpg" alt="Waterfall" style="width:150px;height:120px">
                   </a>
                 </div>
               </div>
             </div>
+            <p>Thumbnail with responsive image</p>
+            <img src="beach.jpg" class="img-thumbnail" alt="Beach" width="504" height="336">
+
           </div>
         </div>
       </div>
@@ -191,7 +204,7 @@
   </div>
 
   <footer>
-    <div class="container">
+    <div id="footcontain" class="container">
       <div class="row">
         <div id ="foot" class="col-sm-12">
           <p>Noelle Chen</p>
