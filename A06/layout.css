@@ -1,6 +1,7 @@
 html, body {
   background-image:url(background.jpg);
   background-repeat: repeat;
+  font-family: 'Merriweather', serif;
 }
 
 footer {
@@ -24,12 +25,4 @@ footer {
 
 #main {
   background-color:aliceblue;
-}
-
-h1 {
-  font-family: 'Cookie', serif;
-}
-
-#inputform {
-  margin-right: 400px;
 }
