@@ -1,25 +1,29 @@
 html, body {
   background-image:url(background.jpg);
+  background-repeat: repeat;
 }
 
 footer {
   text-align: center;
   line-height: 50px;
 }
+.navbar {
+  background-color: lightskyblue;
+}
 
 #foot {
   background-color: lightskyblue;
 }
 #sidebar {
-  background-color: #31b0d5;
+  background-color: lightgray;
 }
 
 #body {
-  background-color: #31b0d5;
+  background-color: lightgray;
 }
 
 #main {
-  background-color:powderblue;
+  background-color:aliceblue;
 }
 
 h1 {
