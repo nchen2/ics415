@@ -22,7 +22,6 @@ footer {
   text-align: center;
 }
 
-
 #footcontain{
   border-color: black;
   border: 1px solid;
@@ -41,4 +40,19 @@ footer {
 
 #main {
   background-color:aliceblue;
+}
+
+@media screen and (max-width:767px){
+  html, body {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+
+  }
+}
+
+@media screen and (min-width:768px){
+  html, body {
+    margin: 0px;
+  }
 }
