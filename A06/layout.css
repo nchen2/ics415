@@ -18,6 +18,10 @@ footer {
   border-radius: 5px;
 }
 
+header {
+  height:25%;
+}
+
 .page-header {
   text-align: center;
 }
