@@ -1,7 +1,7 @@
 html, body {
   background-image: url(background.jpg);
   background-repeat: repeat;
-  font-family: 'Merriweather', serif;
+  font-family: 'Quicksand', serif;
 }
 
 footer {
@@ -15,7 +15,7 @@ footer {
   margin-left: -15px;
   margin-right: -15px;
   border-color: black;
-
+  border-radius: 5px;
 }
 
 .page-header {
@@ -31,15 +31,17 @@ footer {
 
 #sidebar {
   background-color: lightgray;
+  border-radius: 5px;
 }
-
 
 #body {
   background-color: lightgray;
+  border-radius: 5px;
 }
 
 #main {
   background-color:aliceblue;
+  border-radius: 5px;
 }
 
 @media screen and (max-width:767px){
