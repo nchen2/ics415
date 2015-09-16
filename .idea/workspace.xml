@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IC/w4c2/process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64285713">
-              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.375">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -81,17 +81,17 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IC/w4c2/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.5">
-              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+            <state vertical-scroll-proportion="-5.25">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="processtable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="processtable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/w4c2/processtable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.39473686">
               <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding />
             </state>
@@ -154,10 +154,10 @@
         <option value="$PROJECT_DIR$/IC/w4c2/index.html" />
         <option value="$PROJECT_DIR$/testprocess.html" />
         <option value="$PROJECT_DIR$/testform.html" />
-        <option value="$PROJECT_DIR$/IC/w4c2/form.html" />
         <option value="$PROJECT_DIR$/js1.js" />
-        <option value="$PROJECT_DIR$/IC/w4c2/process.html" />
         <option value="$PROJECT_DIR$/IC/w4c2/processtable.js" />
+        <option value="$PROJECT_DIR$/IC/w4c2/process.html" />
+        <option value="$PROJECT_DIR$/IC/w4c2/form.html" />
       </list>
     </option>
   </component>
@@ -179,8 +179,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="77" />
+    <option name="x" value="111" />
+    <option name="y" value="88" />
     <option name="width" value="1240" />
     <option name="height" value="688" />
   </component>
@@ -688,15 +688,15 @@
       <workItem from="1442094084455" duration="7505000" />
       <workItem from="1442175816192" duration="5180000" />
       <workItem from="1442257552109" duration="3357000" />
-      <workItem from="1442430387279" duration="10265000" />
+      <workItem from="1442430387279" duration="10515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103251000" />
+    <option name="totallyTimeSpent" value="103501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="77" width="1240" height="688" extended-state="0" />
+    <frame x="111" y="88" width="1240" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1113,18 +1113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/w4c2/processtable.js">
+    <entry file="file://$PROJECT_DIR$/IC/w4c2/process.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IC/w4c2/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.5">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+        <state vertical-scroll-proportion="-3.375">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1143,10 +1135,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IC/w4c2/process.html">
+    <entry file="file://$PROJECT_DIR$/IC/w4c2/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        <state vertical-scroll-proportion="-5.25">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w4c2/processtable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
         </state>
       </provider>

@@ -32,10 +32,6 @@ function add() {
     cell2 = row.insertCell(1);
     cell2.appendChild(document.createTextNode(inputs[2]));
 
-
-
-
-
   document.getElementById("main").appendChild(table);
 
 
