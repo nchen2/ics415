@@ -59,8 +59,8 @@
         <li>Examples of different form types</li>
       </ul>
     </div>
-    <div id="main" class="col-sm-9">
-      <form name=”myForm” method=”get”>
+    <div id="main" action="process.html"class="col-sm-9">
+      <form name=”myForm” action="process.html" method=”get”>
         <div class=”form-group”>
           <label for=”username”>User name: </label>
           <input type=”text” name=”name” id=”username”>
@@ -73,20 +73,8 @@
           <label for=”phone”>Phone Number: </label>
           <input type=”text” name=”phone” id=”phone”>
         </div>
-          <button onclick="add()">Submit</button>
+        <input type="submit" value="Submit">
       </form>
-
-      <table id="myTable" style="border: 3px solid;">
-        <tr>
-          <td>Name:</td>
-        </tr>
-        <tr>
-          <td>Address:</td>
-        </tr>
-        <tr>
-          <td>Phone:</td>
-        </tr>
-      </table>
     </div>
   </div>
 </div>

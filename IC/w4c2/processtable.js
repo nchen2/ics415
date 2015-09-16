@@ -1,33 +1,43 @@
-function insert() {
-  var table = document.getElementById("myTable");
-  var name = document.getElementById("username");
-  var address = document.getElementById("address");
-  var phone = document.getElementById("phone");
-
-  var row = table.insertRow(1)
-  var cell1 = row.insertCell(0);
-  var cell2 = row.insertCell(1);
-  cell1.innerHTML = "Name";
-  cell2.innerHTML = name;
-
-  row = table.insertRow(2)
-  cell1 = row.insertCell(0);
-  cell2 = row.insertCell(1);
-  cell1.innerHTML = "Address";
-  cell2.innerHTML = address;
-
-  row = table.insertRow(3)
-  cell1 = row.insertCell(0);
-  cell2 = row.insertCell(1);
-  cell1.innerHTML = "Phone";
-  cell2.innerHTML = phone;
-}
-
 function add() {
-  var table = document.getElementById("myTable");
-  var row = table.insertRow(0);
-  var cell1 = row.insertCell(0);
-  var cell2 = row.insertCell(1);
-  cell1.innerHTML = "NEW CELL1";
-  cell2.innerHTML = "NEW CELL2";
+    var query = location.search.substr(1).split("&");
+
+    var inputs = [];
+
+    if (window.location.search)
+    {
+      var values = window.location.search.slice(1).split("&");
+      for (var i = 0; i < values.length; i++)
+      {
+        var temp = values[i].split("=");
+        inputs[i] = decodeURIComponent(temp[1]);
+      }
+    }
+
+    var table = document.createElement('table');
+    var row = table.insertRow();
+    var cell1 = row.insertCell(0);
+    cell1.appendChild(document.createTextNode("Name:"));
+    var cell2 = row.insertCell(1);
+    cell2.appendChild(document.createTextNode(inputs[0]));
+
+    row = table.insertRow();
+    cell1 = row.insertCell(0);
+    cell1.appendChild(document.createTextNode("Address:"));
+    cell2 = row.insertCell(1);
+    cell2.appendChild(document.createTextNode(inputs[1]));
+
+    row = table.insertRow();
+    cell1 = row.insertCell(0);
+    cell1.appendChild(document.createTextNode("Phone:"));
+    cell2 = row.insertCell(1);
+    cell2.appendChild(document.createTextNode(inputs[2]));
+
+
+
+
+
+  document.getElementById("main").appendChild(table);
+
+
 }
+
