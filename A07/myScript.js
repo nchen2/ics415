@@ -1,4 +1,4 @@
-
+/* returns an array of class belong to a element */
 function getClasses(elem) {
   if(elem == null) {
     return [];
@@ -8,23 +8,32 @@ function getClasses(elem) {
   return classarray;
 }
 
-
+/* adds class to element but does not add multiples with the same class name */
 function addClass(elem, className) {
   var exist = getClasses(elem);
-  var addition = "";
-  for (i = 0; i < exist.length; i++) {
-    addition = addition + exist[i] + " ";
-  }
-
-  if(exist == null || exist.length == 0) {
-    addition = className;
+  var double = false;
+  var addition ="";
+  if(exist == null || exist.length == 0 || exist[0] == "") {
+    elem.className = className;
   }
   else {
-    addition = addition + " " + className;
+    for (i = 0; i < exist.length; i++) {
+      if(className == exist[i]) {
+        double = true;
+      }
+      addition = addition + exist[i] + " ";
+    }
+    if(!double) {
+      addition = addition + className;
+    }
+    else {
+      addition = addition.substr(0,addition.length-1);
+    }
+    elem.className = addition;
   }
-  elem.className = addition;
 }
 
+/* validates forms to make sure all replies are not empty, password and confirm password are the same */
 function validateForm()
 {
   var noerror = true;
@@ -39,7 +48,7 @@ function validateForm()
     document.forms["myForm"]["name"].style.background = "red";
   }
   else {
-    document.forms["myForm"]["name"].style.background = "white";
+    document.forms["myForm"]["name"].style.background = "";
   }
   if (email == "" || email == null) {
     noerror = false;
@@ -47,7 +56,7 @@ function validateForm()
     document.forms["myForm"]["email"].style.background = "red";
   }
   else {
-    document.forms["myForm"]["email"].style.background = "white";
+    document.forms["myForm"]["email"].style.background = "";
   }
   if (password == "" || password == null) {
     noerror = false;
@@ -55,7 +64,7 @@ function validateForm()
     document.forms["myForm"]["password"].style.background = "red";
   }
   else {
-    document.forms["myForm"]["password"].style.background = "white";
+    document.forms["myForm"]["password"].style.background = "";
   }
 
   if(confirm == "" || confirm == null || password != confirm) {
@@ -69,7 +78,7 @@ function validateForm()
     document.forms["myForm"]["confirm"].style.background = "red";
   }
   else {
-    document.forms["myForm"]["confirm"].style.background = "white";
+    document.forms["myForm"]["confirm"].style.background = "";
   }
 
   if(noerror) {

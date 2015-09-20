@@ -2,29 +2,36 @@
 <html>
 <head>
   <title>Form Page</title>
+  <style>
+    .backgroundstyle {
+      background-color: lightcyan;
+    }
+  </style>
 </head>
 <body>
-<p>Please enter the following information.</p>
-<p id="errors"></p>
-<form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
-  <div class="form-group">
-    <label for="username">Username: </label>
-    <input type="text" name="name" id="username">
-  </div>
-  <div class="form-group">
-    <label for="email">Email: </label>
-    <input type="email" name="email" id="email">
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password">
-  </div>
-  <div class="form-group">
-    <label for="confirm">Confirm Password:</label>
-    <input type ="password" name="confirm" id="confirm">
-  </div>
-  <input type="submit" value="Submit">
-</form>
+<div id="main">
+  <p>Please enter the following information.</p>
+  <p id="errors"></p>
+  <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+    <div class="form-group">
+      <label for="username">Username: </label>
+      <input type="text" name="name" id="username">
+    </div>
+    <div class="form-group">
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div class="form-group">
+      <label for="confirm">Confirm Password:</label>
+      <input type ="password" name="confirm" id="confirm">
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
 <script src="myScript.js"></script>
 </body>
 </html>
