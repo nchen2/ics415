@@ -1,19 +1,24 @@
-/* returns an array of class belong to a element */
+/* returns an array of the classes belonging to a element */
+/* if the elem does not have a class, function will return an empty array of length 0 */
+/* function assumes that there are no preceding white space in front of the first class name and only one
+white space is in between multiple classes */
 function getClasses(elem) {
-  if(elem == null) {
+  var x = elem.className;
+  if(x =="") {
     return [];
   }
-  var x = elem.className;
   var classarray = x.split(" ");
   return classarray;
 }
 
 /* adds class to element but does not add multiples with the same class name */
+/* function assumes that there are no preceding white space in front of the first class name and only one
+ white space is in between multiple classes */
 function addClass(elem, className) {
   var exist = getClasses(elem);
   var double = false;
   var addition ="";
-  if(exist == null || exist.length == 0 || exist[0] == "") {
+  if(exist.length == 0 || exist[0] == "") {
     elem.className = className;
   }
   else {
@@ -33,11 +38,10 @@ function addClass(elem, className) {
   }
 }
 
-/* validates forms to make sure all replies are not empty, password and confirm password are the same */
-function validateForm()
-{
+/* validates forms to make sure all inputs are not empty, password and confirm password are the same */
+function validateForm() {
   var noerror = true;
-  var errormsg = "Errors: "
+  var errormsg = "Errors: ";
   var name = document.forms["myForm"]["name"].value;
   var email = document.forms["myForm"]["email"].value;
   var password =document.forms["myForm"]["password"].value;
