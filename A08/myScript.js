@@ -85,5 +85,4 @@ function linkcount(){
     insert.appendChild(text);
     document.getElementById("result").appendChild(insert);
   });
-  return false;
 }
