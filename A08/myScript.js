@@ -73,7 +73,7 @@ function faq() {
   });
 }
 
-/*returns the number of links in the url given by userinput by counting the number of <a> in the page*/
+/*returns the number of links in the body of the url by counting the number of <a> in the page*/
 function linkcount(){
   var link = document.forms["myForm"]["url"].value;
 
